@@ -3,9 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./src/*"],
+			"@/assets/*": ["./assets/*"]
     }
   },
   "include": [
@@ -13,5 +12,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "node_modules/react-native-track-player/lib/src/constants/Capability.d.ts", "node_modules/react-native-track-player/lib/src/constants/RatingType.d.ts", "node_modules/react-native-track-player/lib/src/constants/RepeatMode.d.ts"  ]
 }
